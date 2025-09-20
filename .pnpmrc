@@ -1,0 +1,15 @@
+# pnpm配置文件
+# 确保使用正确的registry
+registry=https://registry.npmjs.org/
+
+# 严格peer dependencies检查
+strict-peer-dependencies=false
+
+# 自动安装peer dependencies
+auto-install-peers=true
+
+# 使用硬链接（Windows上可能有问题，可以设置为false）
+symlink=false
+
+# 存储位置（可选）
+store-dir=~/.pnpm-store
